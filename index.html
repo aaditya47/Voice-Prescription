@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="voice.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -137,7 +138,7 @@ span.psw {
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" method="post">
+  <form class="modal-content animate" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="doctor.jpg" alt="Avatar" class="avatar">
@@ -145,19 +146,19 @@ span.psw {
 
     <div class="container"><centre>
         Name&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:    
-        <input type="text" name="name" placeholder="Enter name"><br>
+        <input type="text" name="name" placeholder="Enter name">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         Age&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:
-        <input type="text" name="age" placeholder="Enter age"><br>
+        <input type="text" name="age" placeholder="Enter age">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         Gender&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:   
-        <input type="text" name="gender" placeholder="Enter gender"><br>
+        <input type="text" name="gender" placeholder="Enter gender">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         Symptoms &ensp;&ensp;&ensp;: 
-        <input type="text" name="symptoms" placeholder="Enter symptoms"><br>
+        <input type="text" name="symptoms" placeholder="Enter symptoms">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         Diagnosis&ensp;&ensp;&ensp;&ensp;:
-        <input type="text" name="diagnosis" placeholder="Enter diagnosis"><br>
+        <input type="text" name="diagnosis" placeholder="Enter diagnosis">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         Prescription&ensp;&ensp; :
-        <input type="text" name="prescription" placeholder="Enter prescription"><br>
+        <input type="text" name="prescription" placeholder="Enter prescription">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         Advice &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:
-        <input type="text" name="advice" placeholder="Enter advice"><br>
+        <input type="text" name="advice" placeholder="Enter advice">&ensp;<button id="start_button" onclick="startButton(event)"><img id="start_img" src="mic.gif" alt="Start"></button><br>
         <input type="submit" value="Submit">
         </div></centre>
 
